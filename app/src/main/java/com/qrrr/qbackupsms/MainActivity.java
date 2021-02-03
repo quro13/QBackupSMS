@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Insert a sms into SMS box
      * @param sms JSONObject contain sms info
-     * @throws JSONException ex
+     * @throws JSONException exception
      */
     public void addSMS(JSONObject sms) throws JSONException {
         JSONArray smsArray = sms.names();
